@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="css/lightbox.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/web-animations-js@2.3.1/web-animations.min.js"></script>
+	<script src="https://unpkg.com/hammerjs@2.0.8/hammer.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.7.1/dist/muuri.min.js"></script>
+
+	<title>Lightbox</title>
+</head>
+<body>
+	<div class = "gallery">
+		<div class="item">
+		<div class="item-content">
+		<a href="images/president.jpg" data-lightbox="individual" data-title="Wen Hoong Ling"><img src="images/president.jpg" alt="President"></a>
+		</div>
+		</div>
+		<div class="item">
+		<div class="item-content">
+		<a href="images/vicepresident.jpg" data-lightbox="individual" data-title="Sarah Shuhaizan"><img src="images/vicepresident.jpg" alt="Vice President"></a>
+	</div>
+	</div>
+	<div class="item">
+	<div class="item-content">
+		<a href="images/secretary.jpg" data-lightbox="individual" data-title="Suhaila Yunus"><img src="images/secretary.jpg" alt="Secretary"></a>
+	</div>
+	</div>
+	<div class="item">
+	<div class="item-content">
+		<a href="images/treasurer.jpg" data-lightbox="individual" data-title="Hui Xuan Lim"><img src="images/treasurer.jpg" alt="Treasurer"></a>
+	</div>
+	</div>
+	<div class="item">
+	<div class="item-content">
+		<a href="images/webmaster.jpg" data-lightbox="individual" data-title="Fatimah"><img src="images/webmaster.jpg" alt="Webmaster"></a>
+	</div>
+	</div>
+	<div class="item">
+	<div class="item-content">
+		<a href="images/logisticsmanager.jpg" data-lightbox="individual" data-title="Jia Chen Wee"><img src="images/logisticsmanager.jpg" alt="Logistics Manager"></a>
+	</div>
+	</div>
+	<div class="item">
+	<div class="item-content">
+		<a href="images/sportsmaster.jpg" data-lightbox="individual" data-title="Nabiel Hamzah"><img src="images/sportsmaster.jpg" alt="Sportsmaster"></a>
+	</div>
+	</div>
+	<div class="item">
+	<div class="item-content">
+		<a href="images/seniorrep.jpg" data-lightbox="individual" data-title="Naufal Zani"><img src="images/seniorrep.jpg" alt="Senior Representative"></a>
+	</div>
+	</div>
+	<div class="item">
+	<div class="item-content">
+		<a href="images/sophomorerep.jpg" data-lightbox="individual" data-title="Hanissa Shamsuddin"><img src="images/sophomorerep.jpg" alt="Sophomore Representative"></a>
+		</div>
+		</div>
+	</div>
+<script src="js/lightbox.js"></script>
+<script>	var grid = new Muuri('.gallery', {dragEnabled: true});
+</script>
+</body>
+</html>
